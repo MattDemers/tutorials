@@ -127,6 +127,12 @@ By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can
 
 ![Photoshop step 18 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop18.jpg?raw=true)
 
+Above you can see where to click to get into this view, and you can also see a darker grey box around the square I'm currently selecting (the red highlighted box shows what to look for).
+
+As you can see, each square has their own details to show what's different about them at a glance. The top-left is the original GIF, the top-right is 32 colors with no dither (2.167mb), the bottom-left is 64 colors with 88% dither (6.888mb) and the bottom-right is 128 colors with 88% dither (8.754mb).
+
+Again, this is a great way to see what these changes actually do in relation to each other, and how that affects your finished product. Clicking into each one of the squares will change the settings in the right pane, and the previews will be affected as you change them in turn.
+
 ##Presets
 
 ##Custom Settings
