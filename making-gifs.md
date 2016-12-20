@@ -210,6 +210,18 @@ The same goes for Web Snap, which will adjust colors to be close to Web Safe col
 
 ![Web Snap example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/websnap.jpg?raw=true)
 
+###Saving custom settings
+
+By clicking on the menu in the top right of this window **before** we save the image, we can store these custom settings we've made for ourself for later. This means less worrying and an increased workflow later, especially if we're going to be making the same type of GIF over and over.
+
+![custom settings](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/customsettings.jpg?raw=true)
+
+###Looping once vs forever
+
+If for some reason you want your GIF to only loop once, you can do so from the dropdown below.
+
+![loop settings](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/loop.jpg?raw=true)
+
 #Other optional steps and tweaking before saving
 
 I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
