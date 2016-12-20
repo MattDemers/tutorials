@@ -29,11 +29,11 @@ For this tutorial I'll be using Photoshop CS6.
 
 After opening Photoshop, we can import our video by going to **File > Import > Video Frames to Layers**.
 
-![Photoshop step 1 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-29-08.jpg?raw=true)
+![Photoshop step 1 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop1.jpg?raw=true)
 
 After a bar fills up, you'll get this window, which allows you to choose what you'll be importing out of the video.
 
-![Photoshop step 2 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-38-13.jpg?raw=true)
+![Photoshop step 2 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop2.jpg?raw=true)
 
 As you'll notice, you have some options here. 
 
