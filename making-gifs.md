@@ -132,9 +132,7 @@ There are two reasons why I like making sure the GIF is the size it needs to be 
 1. If you enter Save For Web with a huge GIF (this video imported into Photoshop at 720p) it assumes you want to make it that size initially. Rendering large GIFs (like, we're talking 50+ MB here) takes *forever*, and messes with your work flow.
 2. Every time you tweak the size values in Save For Web, the GIF will need to re-process itself, which can take time. This seems to take less time in [the the other method](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional).
 
-If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing; if I do, it's mainly to squeeze an extra little bit of space out of it if I have room, or make it slightly smaller in order to fit the size requirement.
-
-If something's coming out at 16mb and knocking it down 50px will put it under the 15mb that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
+If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing. If something's coming out at 16mb and knocking it down 50px will put it under the 15mb that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
 
 ##Comparing changes using 2/4-Up
 
@@ -142,7 +140,7 @@ By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can
 
 ![Photoshop step 18 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop18.jpg?raw=true)
 
-Above you can see where to click to get into this view, and you can also see a darker grey box around the square I'm currently selecting (the red highlighted box shows what to look for).
+Above you can see where to click to get into this view, and you can also see a darker grey box around the square I'm currently selecting (the red highlighted box shows where to look for it).
 
 As you can see, each square has their own details to show what's different about them at a glance. The top-left is the original GIF, the top-right is 32 colors with no dither (2.167mb), the bottom-left is 64 colors with 88% dither (6.888mb) and the bottom-right is 128 colors with 88% dither (8.754mb).
 
@@ -150,9 +148,69 @@ Again, this is a great way to see what these changes actually do in relation to 
 
 ##Custom settings - what they mean
 
+###Color reduction 
 
+Part of what takes up space in a GIF is the data pertaining to color. Since a GIF moves (and lighting shifts with it), it's going to have a lot more colors that a static image. 
 
-#Optional steps and tweaking
+A GIF generates these colors by generating a **table**. How it does this is going to affect its size and how the image actually looks. Both color reduction and dithering (see below) will optimize your GIF further, but may affect its quality.
+
+Again, it's a matter of what you're willing to compromise and what the GIF is for.
+
+Below you'll find the exactly same preset, each with less colors. Top-left is 32, top-right is 64, bottom-left is 128 and bottom-right is 256.
+
+![Color comparisons](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/colorcomparison.jpg?raw=true)
+
+When we run them, we can see the level of difference between the examples, including how little "extra" color matters when going from 128 to 256.
+
+Notice how the subject looks relatively the same in the 64, 128 and 256 color examples; since he is the main thing we want to be focusing on, it becomes an acceptable compromise to sacrifice clarity of background elements (like the wall) for size in this case.
+
+![Color comparisons 2](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/colorcomparison2.jpg?raw=true)
+
+However, in other instances, you may need that extra clarity in order to show what you're trying to portray. Your mileage may vary.
+
+###Dithering
+
+In the context of GIF-making, dithering is a technique to smoothen the trandition between colors when the GIF can only use a set amount. Dithering essentially "smooths" the transition between colors by adding dots of alternating colors in order to mask it somewhat.
+
+For example, compare these two images:
+
+![Dithering example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/dither.jpg?raw=true)
+
+The top one has dithering at 88%, the bottom has 0%. With the bottom image, we can see how much more "blocky" or "splotchy" the colors look in the background, since they are not using dots in order to mask the transition. This also carries over to when the graphic is in motion, as it can be distracting or look unprofessional.
+
+However, the tradeoff for dithering is that the file size increases. In the above example, 0% dither means a file size of 4.962mb, while 88% dithering increases it to 8.75mb.
+
+![Dithering example2](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/dither2.jpg?raw=true)
+
+In a four-way comparison, each of these images has a different amount of dithering. Top-left is 25%, top-right is 50%, bottom-left is 75%, bottom-right is 100%. Note the different file sizes, as well.
+
+You can mostly see the difference in quality around where subtle color changes define detail: the shadows on his skin, and the background wall. Lighting tends to demand more colors due to the variety of shadows it casts, which makes dithering useful in animating real life or detailed shots.
+
+In the options menu, you can choose which algorithm the image is dithered with (Diffusion/Pattern/Noise). Below you can see how each looks: top-left is original, top-right is Diffusion, bottom-left is pattern, bottom-right is Noise.
+
+![Dithering example3](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/dither3.jpg?raw=true)
+
+From [the Adobe knowledge base article on this](http://help.adobe.com/en_US/creativesuite/cs/using/WSC7A1F924-DD38-49b4-B84B-EFF50416C860.html#WSE07483CE-5D9F-4764-AA48-9DF708AD8479):
+
+* Diffusion Applies a random pattern that is usually less noticeable than Pattern dither. The dither effects are diffused across adjacent pixels.
+* Pattern Applies a halftone-like square pattern to simulate any colors not in the color table.
+* Noise Applies a random pattern similar to the Diffusion dither method, but without diffusing the pattern across adjacent pixels. No seams appear with the Noise dither method.
+
+It is worth noting that only Diffusion will allow you to adjust how much dithering is used in your GIF.
+
+The Transparency checkbox allows you to use transparency to aid in dithering; this will decrease file size because (as far as I know) you won't need extra colors to make up for what can be done with it. Again, you can choose the algorithm you use for this similarly to above.
+
+###Web Snap and Lossy
+
+Both of these options involve how much leeway your GIF is given to reduce data by selectively discarding it. The more lossy an image is, the more static or "noise" is allowed to happen, which reduces clarity and file size.
+
+![lossy example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/lossy.jpg?raw=true)
+
+The same goes for Web Snap, which will adjust colors to be close to Web Safe colors (which take up less file space in the GIF) at the expense of accuracy through dithering.
+
+![Web Snap example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/websnap.jpg?raw=true)
+
+#Other optional steps and tweaking before saving
 
 I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
 
