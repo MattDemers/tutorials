@@ -105,7 +105,7 @@ Highlighted above is where you'll see two important pieces of information: the *
 
 The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
-##Optimizing our GIF
+##Optimizing our GIF - Why Settings Matter
 
 The "Save For Web" dialog is often intimidating because it offers so many settings to tweak. However, this is the nature of the beast, as making a good GIF is often a fight to maintain good quality while having a manageable size.
 
@@ -119,9 +119,7 @@ When you get a good idea of what each setting does to the finished GIF, you can 
 
 64 Colors - 6.888mb (and a bit less detail)
 
-
-
-##Comparing Using 2/4-Up
+##Comparing Changes Using 2/4-Up
 
 By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can see what different settings will do to our GIFs. Clicking on a square will select that window to be modified; any changes you make to the settings will **only change that square**, allowing you to compare sizes and quality.
 
