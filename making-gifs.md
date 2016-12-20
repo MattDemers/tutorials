@@ -131,9 +131,7 @@ As you can see, each square has their own details to show what's different about
 
 Again, this is a great way to see what these changes actually do in relation to each other, and how that affects your finished product. Clicking into each one of the squares will change the settings in the right pane, and the previews will be affected as you change them in turn.
 
-##Presets
-
-##Custom Settings
+##Custom Settings - What They Mean
 
 #Optional Steps And Tweaking
 
