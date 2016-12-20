@@ -81,6 +81,8 @@ This will resize our GIF, and it will be reflected in Photoshop.
 
 ![Photoshop step 7 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop7.jpg?raw=true)
 
+Learn more about why this matters [here](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#resizing-our-image---why-reprocessing-matters).
+
 #Step 4: Saving our GIF
 
 Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
