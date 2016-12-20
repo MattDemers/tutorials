@@ -63,11 +63,11 @@ If you do not see this window, go to the **Window** menu at the top of the scree
 
 You can also go to **Window > Workspace > Reset Essentials** if you want in order to make it look exactly like mine in the screenshot. You'll then have to go to **Window > Timeline** in order to make it show up, though.
 
-#Step 4: Resizing our image
+#Step 4: Resizing our image (optional)
 
 There are two instances where we can resize our image, and which we use depends on both the power of our computer and the size of our intial upload. Basically we ask ourself: "do I know how big the GIF needs to be, and do I know if it will fit my space requirement at that size?"
 
-If so, we can resize it now.
+If so, we can resize it now. If not, we'll do it before we save the image in another dialog.
 
 Pressing "**CTRL + ALT + I**" or "**⌘ + ALT + I**" enters the "Image Size" dialog, which can resize your image. You can also go to **Image > Image Size** if these keyboard shortcuts don't work.
 
@@ -80,6 +80,28 @@ For Twitter, you need to keep the file size **under** 15MB. For this size (and f
 This will resize our GIF, and it will be reflected in Photoshop.
 
 ![Photoshop step 7 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop7.jpg?raw=true)
+
+**Step 5: Removing Frames**
+
+After we've got our video in Photoshop as a GIF, there's a couple things we can do to it, and most of them are from the Timeline window.
+
+![Photoshop step 8 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop8.jpg?raw=true)
+
+I'll be highlighting a bunch of the features on this screenshot as we use them, but this is the left side of the Timeline window. However, another feature we'll need will be way on the **right** side of it, highlighted here in red.
+
+![Photoshop step 9 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop9.jpg?raw=true)
+
+This menu allows us to do a number of things with the frames of the animation. Primarily, I am in this menu to *remove* frames. This video wasn't trimmed properly, so there's a few frames that I want removed at the end in order to make it loop better.
+
+![Photoshop step 10 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop10.jpg?raw=true)
+
+I can highlight frames that I don't want with a click, CTRL click (for multiple frames) or SHIFT click (for a linear selection) and then...
+
+![Photoshop step 11 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop11.jpg?raw=true)
+
+...go to the menu above and click "**Delete Frames**" in order to remove them.
+
+
 
 
 
