@@ -10,7 +10,7 @@ This can be worked around in certain stages, but sadly people haven't phased GIF
 
 It sounds silly, but even putting one button for people to click (like playing a video or .WebM) might be enough for people *not* to click on it. Sadly, that's how content works sometimes.
 
-#This Guide Requires:
+#This guide requires:
 
 * Photoshop
 * Mild video editing
@@ -105,7 +105,7 @@ Highlighted above is where you'll see two important pieces of information: the *
 
 The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
-##Optimizing our GIF - Why Settings Matter
+##Optimizing our GIF - why settings matter
 
 The "Save For Web" dialog is often intimidating because it offers so many settings to tweak. However, this is the nature of the beast, as making a good GIF is often a fight to maintain good quality while having a manageable size.
 
@@ -119,7 +119,7 @@ When you get a good idea of what each setting does to the finished GIF, you can 
 
 64 Colors - 6.888mb (and a bit less detail)
 
-##Comparing Changes Using 2/4-Up
+##Comparing changes using 2/4-Up
 
 By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can see what different settings will do to our GIFs. Clicking on a square will select that window to be modified; any changes you make to the settings will **only change that square**, allowing you to compare sizes and quality.
 
@@ -131,13 +131,15 @@ As you can see, each square has their own details to show what's different about
 
 Again, this is a great way to see what these changes actually do in relation to each other, and how that affects your finished product. Clicking into each one of the squares will change the settings in the right pane, and the previews will be affected as you change them in turn.
 
-##Custom Settings - What They Mean
+##Custom settings - what they mean
 
-#Optional Steps And Tweaking
+
+
+#Optional steps and tweaking
 
 I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
 
-##Removing Frames
+##Removing frames
 
 After we've got our video in Photoshop as a GIF, there's a couple things we can do to it, and most of them are from the Timeline window.
 
