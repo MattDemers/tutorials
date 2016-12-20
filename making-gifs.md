@@ -41,7 +41,7 @@ As you'll notice, you have some options here.
 
 **From Beginning To End** does just that. However, if what you're importing is over 500 frames, it will be cut off from the end.
 
-**Selected Range Only** will use the In/Out arrows of the timeline to the right to determine what you're importing. YOu can use the Play Button and the previous/next frame buttons to fine-tune this.
+**Selected Range Only** will use the In/Out arrows of the timeline to the right to determine what you're importing. You can use the Play Button and the previous/next frame buttons to fine-tune this.
 
 **Limit to Every # Frames** will shrink the size of your end selection by taking out every *n* frame. Selecting "2" here will take out every second frame, etc.
 
@@ -83,7 +83,7 @@ This will resize our GIF, and it will be reflected in Photoshop.
 
 #Step 4: Saving our GIF
 
-If our GIF is already the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
+Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
 
 Primarily we want to work within the "Save For Web" dialog, because GIFs were an image format meant to be placed on the web. In later versions of Photoshop (Creative Cloud 2015 and later) this can be found in the **File > Export** menu, but in earlier versions, you'll find it in **File > Save For Web**. Either way, I usually access it by pressing **CTRL+ALT+SHIFT+S**.
 
@@ -97,12 +97,37 @@ Below I'll be highlighting bits of what all these options mean.
 
 In the top-right of this box (highlighted in red, above) you'll see a dropdown menu that determines the file format of your exported image. You want to make sure it's a GIF; if you're loading this up for the first time it might be a JPEG or PNG, and if you save it, it won't animate.
 
+In the top dropdown, you'll be able to choose from Photoshop's presets for quality ("GIF 128 Dithered", etc). We'll be going into those more later.
+
 ![Photoshop step 14 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop14.jpg?raw=true)
 
 Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15mb, but on other services (and other services that post to Twitter), that might be greatly reduced. 
 
 The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
+##Optimizing our GIF
+
+The "Save For Web" dialog is often intimidating because it offers so many settings to tweak. However, this is the nature of the beast, as making a good GIF is often a fight to maintain good quality while having a manageable size.
+
+When you get a good idea of what each setting does to the finished GIF, you can figure out what you want to focus on. For instance, the more colors a GIF has the bigger it's going to be; below, you can see the difference between a GIF with 128 colors vs one with 64 — the file size lowers by nearly 2mb.
+
+![128 Colors](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/128colors.jpg?raw=true)
+
+128 Colors - 8.754mb
+
+![64 Colors](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/64colors.jpg?raw=true)
+
+64 Colors - 6.888mb (and a bit less detail)
+
+
+
+##Comparing Using 2/4-Up
+
+By clicking the tabs for 
+
+##Presets
+
+##Custom Settings
 
 #Optional Steps And Tweaking
 
