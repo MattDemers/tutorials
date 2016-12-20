@@ -63,7 +63,7 @@ If you do not see this window, go to the **Window** menu at the top of the scree
 
 You can also go to **Window > Workspace > Reset Essentials** if you want in order to make it look exactly like mine in the screenshot. You'll then have to go to **Window > Timeline** in order to make it show up, though.
 
-#Step 4: Resizing our image (optional)
+#Step 3b: Resizing our image (optional)
 
 There are two instances where we can resize our image, and which we use depends on both the power of our computer and the size of our intial upload. Basically we ask ourself: "do I know how big the GIF needs to be, and do I know if it will fit my space requirement at that size?"
 
@@ -81,7 +81,32 @@ This will resize our GIF, and it will be reflected in Photoshop.
 
 ![Photoshop step 7 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop7.jpg?raw=true)
 
-#Step 5: Removing Frames
+#Step 4: Saving our GIF
+
+If our GIF is already the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
+
+Primarily we want to work within the "Save For Web" dialog, because GIFs were an image format meant to be placed on the web. In later versions of Photoshop (Creative Cloud 2015 and later) this can be found in the **File > Export** menu, but in earlier versions, you'll find it in **File > Save For Web**. Either way, I usually access it by pressing **CTRL+ALT+SHIFT+S**.
+
+![Photoshop step 12 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop12.jpg?raw=true)
+
+As you can see, our GIF shows up in the left portion, and it's already been processed a little. This is where the majority of tweaking is going to happen in order to make sure that the GIF is within our desired specifications.
+
+Below I'll be highlighting bits of what all these options mean.
+
+![Photoshop step 13 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop13.jpg?raw=true)
+
+In the top-right of this box (highlighted in red, above) you'll see a dropdown menu that determines the file format of your exported image. You want to make sure it's a GIF; if you're loading this up for the first time it might be a JPEG or PNG, and if you save it, it won't animate.
+
+![Photoshop step 14 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop14.jpg?raw=true)
+
+Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15mb, but on other services (and other services that post to Twitter), that might be greatly reduced.
+
+
+#Optional Steps And Tweaking
+
+I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
+
+##Removing Frames
 
 After we've got our video in Photoshop as a GIF, there's a couple things we can do to it, and most of them are from the Timeline window.
 
