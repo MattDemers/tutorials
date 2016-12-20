@@ -127,7 +127,7 @@ Earlier in the tutorial I wrote about why you'd want to resize your GIF in Photo
 
 ![Photoshop step 21 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop21.jpg?raw=true)
 
-There are two reasons why I like making sure the GIF is the size it needs to be before entering Save For Web:
+There are two reasons why I like making sure the GIF is the size it needs to be **before** entering Save For Web:
 
 1. If you enter Save For Web with a huge GIF (this video imported into Photoshop at 720p) it assumes you want to make it that size initially. Rendering large GIFs (like, we're tlaking 50+ MB here) takes *forever*, and messes with your work flow.
 2. Every time you tweak the size values in Save For Web, the GIF will need to re-process itself, which can take time. This seems to take less time in [the the other method](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional).
