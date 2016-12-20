@@ -49,3 +49,15 @@ Keep **Make Frame Animation** checked.
 
 #Step 3: Dealing with what comes out
 
+Photoshop will then spit you back to the main window after importing your GIF and setting it up to be worked with.
+
+![Photoshop step 4 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop4.jpg?raw=true)
+
+The key, here, is the **Timeline** window at the bottom of the screen, which will allow us to work with the animation. This is highlighted red in the image below.
+
+![Photoshop step 5 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop5.jpg?raw=true)
+
+If you do not see this window, go to the **Window** menu at the top of the screen and make sure it is visible by checking it.
+
+![Photoshop step 3 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop3.jpg?raw=true)
+
