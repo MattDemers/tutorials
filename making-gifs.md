@@ -99,7 +99,9 @@ In the top-right of this box (highlighted in red, above) you'll see a dropdown m
 
 ![Photoshop step 14 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop14.jpg?raw=true)
 
-Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15mb, but on other services (and other services that post to Twitter), that might be greatly reduced.
+Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15mb, but on other services (and other services that post to Twitter), that might be greatly reduced. 
+
+The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
 
 #Optional Steps And Tweaking
