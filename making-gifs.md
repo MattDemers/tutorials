@@ -81,7 +81,7 @@ This will resize our GIF, and it will be reflected in Photoshop.
 
 ![Photoshop step 7 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop7.jpg?raw=true)
 
-**Step 5: Removing Frames**
+#Step 5: Removing Frames
 
 After we've got our video in Photoshop as a GIF, there's a couple things we can do to it, and most of them are from the Timeline window.
 
