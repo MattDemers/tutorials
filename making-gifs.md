@@ -125,7 +125,7 @@ When you get a good idea of what each setting does to the finished GIF, you can 
 
 By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can see what different settings will do to our GIFs. Clicking on a square will select that window to be modified; any changes you make to the settings will **only change that square**, allowing you to compare sizes and quality.
 
-![Photoshop step 17 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop17.jpg?raw=true)
+![Photoshop step 18 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop18.jpg?raw=true)
 
 ##Presets
 
