@@ -25,6 +25,6 @@ Keep in mind that the size of the video matters; Photoshop can only import 500 f
 
 #Step 2: Importing into Photoshop
 
-After opening Photoshop, we can import our video by going to **File > Import > Frames to Layers**
+After opening Photoshop, we can import our video by going to **File > Import > Frames to Layers**.
 
 [](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-29-08.jpg?raw=true)
