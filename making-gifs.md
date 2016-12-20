@@ -69,7 +69,7 @@ There are two instances where we can resize our image, and which we use depends 
 
 If so, we can resize it now. If not, we'll do it before we save the image in another dialog.
 
-Pressing "**CTRL + ALT + I**" or "**⌘ + ALT + I**" enters the "Image Size" dialog, which can resize your image. You can also go to **Image > Image Size** if these keyboard shortcuts don't work.
+Pressing "**CTRL+ALT+I**" or "**⌘+ALT+I**" enters the "Image Size" dialog, which can resize your image. You can also go to **Image > Image Size** if these keyboard shortcuts don't work.
 
 ![Photoshop step 6 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop6.jpg?raw=true)
 
