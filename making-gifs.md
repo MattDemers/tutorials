@@ -119,6 +119,21 @@ When you get a good idea of what each setting does to the finished GIF, you can 
 
 64 Colors - 6.888mb (and a bit less detail)
 
+##Resizing our image - why reprocessing matters
+
+Earlier in the tutorial I wrote about why you'd want to resize your GIF in Photoshop instead of the Save For Web Dialog. You can do the latter by checking out the highlighted boxes below:
+
+![Photoshop step 21 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop21.jpg?raw=true)
+
+There are two reasons why I like making sure the GIF is the size it needs to be before entering Save For Web:
+
+1. If you enter Save For Web with a huge GIF (this video imported into Photoshop at 720p) it assumes you want to make it that size initially. Rendering large GIFs (like, we're tlaking 50+ MB here) takes *forever*, and messes with your work flow.
+2. Every time you tweak the size values in Save For Web, the GIF will need to re-process itself, which can take time. This seems to take less time in [the the other method](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional).
+
+If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing; if I do, it's mainly to squeeze an extra little bit of space out of it if I have room, or make it slightly smaller in order to fit the size requirement.
+
+If something's coming out at 16mb and knocking it down 50px will put it under the 15mb that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
+
 ##Comparing changes using 2/4-Up
 
 By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can see what different settings will do to our GIFs. Clicking on a square will select that window to be modified; any changes you make to the settings will **only change that square**, allowing you to compare sizes and quality.
