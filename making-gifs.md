@@ -23,8 +23,29 @@ I know I mention video, but that is what we make our GIFs out of. [You can downl
 
 Keep in mind that the size of the video matters; Photoshop can only import 500 frames of a video at maximum. When you import the video into Photoshop (in order to do the GIF work) it will tell you that it's either a large video in size and/or in frames. The large size of a video can make it difficult to work with, as changes will need to be applied to the whole thing.
 
+For this tutorial I'll be using Photoshop CS6.
+
 #Step 2: Importing into Photoshop
 
-After opening Photoshop, we can import our video by going to **File > Import > Frames to Layers**.
+After opening Photoshop, we can import our video by going to **File > Import > Video Frames to Layers**.
 
 ![Photoshop step 1 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-29-08.jpg?raw=true)
+
+After a bar fills up, you'll get this window, which allows you to choose what you'll be importing out of the video.
+
+![Photoshop step 2 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-38-13.jpg?raw=true)
+
+As you'll notice, you have some options here. 
+
+**Range to Import** is self-explanatory: these options will allow you to choose what you'll import.
+
+**From Beginning To End** does just that. However, if what you're importing is over 500 frames, it will be cut off from the end.
+
+**Selected Range Only** will use the In/Out arrows of the timeline to the right to determine what you're importing. YOu can use the Play Button and the previous/next frame buttons to fine-tune this.
+
+**Limit to Every # Frames** will shrink the size of your end selection by taking out every *n* frame. Selecting "2" here will take out every second frame, etc.
+
+Keep **Make Frame Animation** checked.
+
+#Step 3: Dealing with what comes out
+
