@@ -24,3 +24,7 @@ I know I mention video, but that is what we make our GIFs out of. [You can downl
 Keep in mind that the size of the video matters; Photoshop can only import 500 frames of a video at maximum. When you import the video into Photoshop (in order to do the GIF work) it will tell you that it's either a large video in size and/or in frames. The large size of a video can make it difficult to work with, as changes will need to be applied to the whole thing.
 
 #Step 2: Importing into Photoshop
+
+After opening Photoshop, we can import our video by going to **File > Import > Frames to Layers**
+
+[](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop_2016-12-20_13-29-08.jpg?raw=true)
