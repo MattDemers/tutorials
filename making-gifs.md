@@ -17,6 +17,31 @@ It sounds silly, but even putting one button for people to click (like playing a
 
 The reason we're using Photoshop instead of some kind of other editor or drag-and-drop GIF maker is because I like to know how big the output GIF is going to be, and have fine-tuning over different things like how fast it runs, what the colors look like, and its end dimensions. If you're in an absolute hurry, sure, you can use one of those services, but you're usually going to have to put up with bad compression, a watermark logo, or something that ultimately looks bad or doesn't fit your needs.
 
+#Table of Contents
+
+* Step 1: Getting your video
+* Step 2: Importing into Photoshop
+* Step 3: Dealing with what comes out
+* Step 3b: Resizing our image (optional)
+* Step 4: Saving our GIF
+* &nbsp;&nbsp;&nbsp;&nbsp;Optimizing our GIF - why settings matter
+* &nbsp;&nbsp;&nbsp;&nbsp;Resizing our image - why reprocessing matters
+* &nbsp;&nbsp;&nbsp;&nbsp;Comparing changes using 2/4-Up
+* &nbsp;&nbsp;&nbsp;&nbsp;Custom settings - what they mean
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color reduction
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dithering
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Snap and Lossy
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saving custom settings
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looping once vs forever
+* Step 5: Finishing up
+* Other optional steps and tweaking before saving
+* &nbsp;&nbsp;&nbsp;&nbsp;Removing frames
+* &nbsp;&nbsp;&nbsp;&nbsp;Color correction and adding overlay text/images
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensuring consistency
+* &nbsp;&nbsp;&nbsp;&nbsp;Increasing pause between frames
+* Wrapping it all up
+* Licensing
+
 #Step 1: Getting your video
 
 I know I mention video, but that is what we make our GIFs out of. [You can download this video as a sample](https://www.dropbox.com/s/9j78myctwhwjss1/tozawa.mp4?dl=0) from my Dropbox.
@@ -226,7 +251,7 @@ If for some reason you want your GIF to only loop once, you can do so from the d
 
 ![loop settings](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/loop.jpg?raw=true)
 
-##Finishing up
+# Step 5: Finishing up
 
 Once you're comfortable with how your GIF looks, you can click "Save...", give it a name, and you're finished! Woo!
 
@@ -297,7 +322,7 @@ At the top of the "Layer" window (purple highlight) I have the ability to **unif
 
 Please keep in mind that every time you click a new frame in the Timeline window you are working on a separate part of your animation.
 
-##Increasing pause
+##Increasing pause between frames
 
 Increasing the amount of time a frame spends on the screen became important to me when I started to reach the uppet limit of spacethe a GIF could work with. As I mentioned before, Photoshop can only work with 500 frames at maximum, so having 50 or a 100 that are just the same frame frozen (like say, in a pause) is a waste of space.
 
@@ -311,7 +336,7 @@ I used this when I wanted to annotate esports plays, as I would pause for a coup
 
 By setting the GIF frame itself to freeze for two seconds (and then edit in text, like I explained above) I could save valuable time and space within my Photoshop work environment.
 
-##Wrapping it all up
+#Wrapping it all up
 
 Thanks for reading this monster of a guide; I didn't think it would be this long, but hey, these things are important.
 
