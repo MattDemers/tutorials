@@ -130,7 +130,7 @@ In the top dropdown, you'll be able to choose from Photoshop's presets for quali
 
 ![Photoshop step 14 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop14.jpg?raw=true)
 
-Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15mb, but on other services (and other services that post to Twitter), that might be greatly reduced. 
+Highlighted above is where you'll see two important pieces of information: the **file format** (which we want to be "GIF") and the **file size**. Again, the size depends on the place you're putting it: on Twitter, you can upload GIFs up to 15MB, but on other services (and other services that post to Twitter), that might be greatly reduced. 
 
 The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
@@ -138,15 +138,15 @@ The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will 
 
 The "Save For Web" dialog is often intimidating because it offers so many settings to tweak. However, this is the nature of the beast, as making a good GIF is often a fight to maintain good quality while having a manageable size.
 
-When you get a good idea of what each setting does to the finished GIF, you can figure out what you want to focus on. For instance, the more colors a GIF has the bigger it's going to be; below, you can see the difference between a GIF with 128 colors vs one with 64 — the file size lowers by nearly 2mb.
+When you get a good idea of what each setting does to the finished GIF, you can figure out what you want to focus on. For instance, the more colors a GIF has the bigger it's going to be; below, you can see the difference between a GIF with 128 colors vs one with 64 — the file size lowers by nearly 2MB.
 
 ![128 Colors](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/128colors.jpg?raw=true)
 
-128 Colors - 8.754mb
+128 Colors - 8.754MB
 
 ![64 Colors](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/64colors.jpg?raw=true)
 
-64 Colors - 6.888mb (and a bit less detail)
+64 Colors - 6.888MB (and a bit less detail)
 
 ##Resizing our image - why reprocessing matters
 
@@ -159,7 +159,7 @@ There are two reasons why I like making sure the GIF is the size it needs to be 
 1. If you enter Save For Web with a huge GIF (this video imported into Photoshop at 720p) it assumes you want to make it that size initially. Rendering large GIFs (like, we're talking 50+ MB here) takes *forever*, and messes with your work flow.
 2. Every time you tweak the size values in Save For Web, the GIF will need to re-process itself, which can take time. This seems to take less time in [the the other method](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional).
 
-If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing. If something's coming out at 16mb and knocking it down 50px will put it under the 15mb that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
+If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing. If something's coming out at 16MB and knocking it down 50px will put it under the 15MB that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
 
 ##Comparing changes using 2/4-Up
 
@@ -169,7 +169,7 @@ By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can
 
 Above you can see where to click to get into this view, and you can also see a darker grey box around the square I'm currently selecting (the red highlighted box shows where to look for it).
 
-As you can see, each square has their own details to show what's different about them at a glance. The top-left is the original GIF, the top-right is 32 colors with no dither (2.167mb), the bottom-left is 64 colors with 88% dither (6.888mb) and the bottom-right is 128 colors with 88% dither (8.754mb).
+As you can see, each square has their own details to show what's different about them at a glance. The top-left is the original GIF, the top-right is 32 colors with no dither (2.167MB), the bottom-left is 64 colors with 88% dither (6.888MB) and the bottom-right is 128 colors with 88% dither (8.754MB).
 
 Again, this is a great way to see what these changes actually do in relation to each other, and how that affects your finished product. Clicking into each one of the squares will change the settings in the right pane, and the previews will be affected as you change them in turn.
 
@@ -205,7 +205,7 @@ For example, compare these two images:
 
 The top one has dithering at 88%, the bottom has 0%. With the bottom image, we can see how much more "blocky" or "splotchy" the colors look in the background, since they are not using dots in order to mask the transition. This also carries over to when the graphic is in motion, as it can be distracting or look unprofessional.
 
-However, the tradeoff for dithering is that the file size increases. In the above example, 0% dither means a file size of 4.962mb, while 88% dithering increases it to 8.75mb.
+However, the tradeoff for dithering is that the file size increases. In the above example, 0% dither means a file size of 4.962MB, while 88% dithering increases it to 8.75MB.
 
 ![Dithering example2](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/dither2.jpg?raw=true)
 
