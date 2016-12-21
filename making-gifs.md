@@ -6,7 +6,7 @@ This can be worked around in certain stages, but sadly people haven't phased GIF
 
 1. They auto-play on Twitter instead of requiring a user to click through. They also play on hover for other services (Tumblr, Facebook, etc)
 2. They are accepted by many older services, especially ones that don't accept embedding your own HTML (like Pinterest)
-3. GIFV, GFYs and .WebMs have yet to come up with a format that works for everyone
+3. GIFV, GFYs and .WebMs have yet to come up with a format that works for everyone and are accepted on all platforms
 
 It sounds silly, but even putting one button for people to click (like playing a video or .WebM) might be enough for people *not* to click on it. Sadly, that's how content works sometimes.
 
