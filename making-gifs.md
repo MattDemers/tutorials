@@ -262,11 +262,11 @@ In order to adjust hue, saturation or any other color options, you can do it the
 
 ![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/layers1.jpg?raw=true)
 
-By scrolling to the top of the layers stack and **then**adding what we want, we can put our layer on the top of all the frames and have it affect everything.
+By scrolling to the top of the layers stack and **then** adding what we want, we can put our layer on the top of all the frames and have it affect everything.
 
 This applies to adding adjustments to color through **Image > Adjustments** or creating a new layer for text and transparent images. Because the layers we're adding have a transparent background, the frames below it can change and have it not affect what's on top.
 
-As a word of advice, **I strongly suggest you do this in a video editing software** before you import the video to Photoshop. It is much easier than having to ensure consistency for every single frame of your animation, and saves a lot of time.
+####As a word of advice, **I strongly suggest you do this in a video editing software** before you import the video to Photoshop. It is much easier than having to ensure consistency for every single frame of your animation, and saves a lot of time.
 
 ###Ensuring consistency
 
