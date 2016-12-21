@@ -283,7 +283,7 @@ I can highlight frames that I don't want with a click, CTRL/⌘ click (for multi
 
 In order to adjust hue, saturation or any other color options, you can do it the normal way as you would in Photoshop. However, you have to make sure that your adjustments are on top of all the other layers.
 
-[Before](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional) we said that Photoshop imports the video frames as a stack of layers; this is key because we need to affect *all* the layers in the stack, not just one of them.
+[Before](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optionalR) we said that Photoshop imports the video frames as a stack of layers; this is key because we need to affect *all* the layers in the stack, not just one of them.
 
 ![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/layers1.jpg?raw=true)
 
@@ -301,7 +301,7 @@ For example:
 
 ![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/frame1.jpg?raw=true)
 
-Here I have Frame 1 selected in the Timeline window (red highlight at bottom). I then type in text that I want to show up over everything (pueple highlight).
+Here I have Frame 1 selected in the Timeline window (red highlight at bottom). I then type in text that I want to show up over everything (purple highlight).
 
 Then I click over to Frame 228, and decide that I want the text somewhere else, so I move it.
 
