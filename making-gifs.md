@@ -112,7 +112,7 @@ Learn more about why this matters [here](https://github.com/MattDemers/tutorials
 
 #Step 4: Saving our GIF
 
-Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
+Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#other-optional-steps-and-tweaking-before-saving) section below; these include things like color correcting and trimming off frames that don't need to be there.
 
 Primarily we want to work within the "Save For Web" dialog, because GIFs were an image format meant to be placed on the web. In later versions of Photoshop (Creative Cloud 2015 and later) this can be found in the **File > Export** menu, but in earlier versions, you'll find it in **File > Save For Web**. Either way, I usually access it by pressing **CTRL/⌘+ALT+SHIFT+S**.
 
