@@ -51,6 +51,8 @@ Keep **Make Frame Animation** checked.
 
 Photoshop will then spit you back to the main window after importing your GIF and setting it up to be worked with.
 
+Here, Photoshop will import your video as a series of layers; the first frame in the GIF is on the bottom, and the last is on top. Photoshop makes a GIF by showing each frame and then hiding them in sequence, so you are given the illusion of motion.
+
 ![Photoshop step 4 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop4.jpg?raw=true)
 
 The key, here, is the **Timeline** window at the bottom of the screen, which will allow us to work with the animation. This is highlighted red in the image below.
@@ -206,9 +208,11 @@ Both of these options involve how much leeway your GIF is given to reduce data b
 
 ![lossy example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/lossy.jpg?raw=true)
 
-The same goes for Web Snap, which will adjust colors to be close to Web Safe colors (which take up less file space in the GIF) at the expense of accuracy through dithering.
+The same goes for Web Snap, which will adjust colors to be close to [Web Safe colors](https://en.wikipedia.org/wiki/Web_colors#Web-safe_colors) (which take up less file space in the GIF) at the expense of accuracy through dithering.
 
 ![Web Snap example](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/websnap.jpg?raw=true)
+
+You can note the color table on the right side of the settings dialog: there are fewer colors there, and all of them are Web Safe.
 
 ###Saving custom settings
 
@@ -221,6 +225,10 @@ By clicking on the menu in the top right of this window **before** we save the i
 If for some reason you want your GIF to only loop once, you can do so from the dropdown below.
 
 ![loop settings](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/loop.jpg?raw=true)
+
+##Finishing up
+
+Once you're comfortable with how your GIF looks, you can click "Save...", give it a name, and you're finished! Woo!
 
 #Other optional steps and tweaking before saving
 
@@ -245,6 +253,51 @@ I can highlight frames that I don't want with a click, CTRL click (for multiple 
 ![Photoshop step 11 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop11.jpg?raw=true)
 
 ...go to the menu above and click "**Delete Frames**" in order to remove them.
+
+##Color correction and adding overlay text/images
+
+In order to adjust hue, saturation or any other color options, you can do it the normal way as you would in Photoshop. However, you have to make sure that your adjustments are on top of all the other layers.
+
+[Before](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3-dealing-with-what-comes-out) we said that Photoshop imports the video frames as a stack of layers; this is key because we need to affect *all* the layers in the stack, not just one of them.
+
+![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/layers1.jpg?raw=true)
+
+By scrolling to the top of the layers stack and **then**adding what we want, we can put our layer on the top of all the frames and have it affect everything.
+
+This applies to adding adjustments to color through **Image > Adjustments** or creating a new layer for text and transparent images. Because the layers we're adding have a transparent background, the frames below it can change and have it not affect what's on top.
+
+As a word of advice, **I strongly suggest you do this in a video editing software** before you import the video to Photoshop. It is much easier than having to ensure consistency for every single frame of your animation, and saves a lot of time.
+
+###Ensuring consistency
+
+The danger to this comes from the fact that **every frame in the animation stores its own position and visibility data for other layers**. This means that if your overlay text is in a different position when Frame 1 is selected in the "Timeline" window than when Frame 2 is selected, it will animate and change places.
+
+For example:
+
+![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/frame1.jpg?raw=true)
+
+Here I have Frame 1 selected in the Timeline window (red highlight at bottom). I then type in text that I want to show up over everything (pueple highlight).
+
+Then I click over to Frame 228, and decide that I want the text somewhere else, so I move it.
+
+![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/frame2.jpg?raw=true)
+
+When I animate the image, Frame 1 will have the text at the *old* location, because that's where it assumes I want it. **This also applies to visibility (whether it's hidden or showing) and any kind of styling on the layer**.
+
+Thankfully, Photoshop has a way of making sure I don't have to go through each of the 228 frames of this animation and change the text's position.
+
+![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/unify.jpg?raw=true)
+
+At the top of the "Layer" window (purple highlight) I have the ability to **unify** how the layer is portrayed across all frames. From left to right:
+
+* The pin with the lock ensures position stays consistent
+* The eye with the lock ensures visibility stays consistent
+* The "fx" with the lock ensures layer style stays consistent
+* "Propogate Frame 1" allows changes made a frame carry over to all others after it
+
+Please keep in mind that every time you click a new frame in the Timeline window you are working on a separate part of your animation.
+
+##Increasing pause
 
 
 
