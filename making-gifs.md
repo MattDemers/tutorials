@@ -114,7 +114,7 @@ Learn more about why this matters [here](https://github.com/MattDemers/tutorials
 
 Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](#optional-steps-and-tweaking) section below; these include things like color correcting and trimming off frames that don't need to be there.
 
-Primarily we want to work within the "Save For Web" dialog, because GIFs were an image format meant to be placed on the web. In later versions of Photoshop (Creative Cloud 2015 and later) this can be found in the **File > Export** menu, but in earlier versions, you'll find it in **File > Save For Web**. Either way, I usually access it by pressing **CTRL+ALT+SHIFT+S**.
+Primarily we want to work within the "Save For Web" dialog, because GIFs were an image format meant to be placed on the web. In later versions of Photoshop (Creative Cloud 2015 and later) this can be found in the **File > Export** menu, but in earlier versions, you'll find it in **File > Save For Web**. Either way, I usually access it by pressing **CTRL/⌘+ALT+SHIFT+S**.
 
 ![Photoshop step 12 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop12.jpg?raw=true)
 
@@ -273,7 +273,7 @@ This menu allows us to do a number of things with the frames of the animation. P
 
 ![Photoshop step 10 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop10.jpg?raw=true)
 
-I can highlight frames that I don't want with a click, CTRL click (for multiple frames) or SHIFT click (for a linear selection) and then...
+I can highlight frames that I don't want with a click, CTRL/⌘ click (for multiple frames) or SHIFT click (for a linear selection) and then...
 
 ![Photoshop step 11 image.](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/Photoshop11.jpg?raw=true)
 
