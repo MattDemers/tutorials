@@ -316,3 +316,20 @@ By setting the GIF frame itself to freeze for two seconds (and then edit in text
 Thanks for reading this monster of a guide; I didn't think it would be this long, but hey, these things are important.
 
 I'm sure a lot of you are going to come away from this thinking "man, why don't we just move over to webm, already?"
+
+The thing is, I'd love for that to happen, but the Internet is at a weird place right now where standards are being changed and people still have to develop for older technologies used by people who may not know how to make sure they have the most efficient experience.
+
+Making GIFs is like developing for Internet Explorer: we don't want to do it, but there's going to be someone *somewhere* still using it. It just so happens that that "someone" is a huge amount of web traffic — too big to ignore.
+
+If you have any feedback for this guide, feel free to let me know by clicking on the "issues" tab at the top of the page. If all else, [you can follow me on Twitter](http://twitter.com/mattdemers).
+
+---
+
+The MIT License (MIT)
+Copyright (c) 2016 Matt Demers
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
