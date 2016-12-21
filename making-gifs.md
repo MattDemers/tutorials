@@ -28,16 +28,16 @@ The reason we're using Photoshop instead of some kind of other editor or drag-an
 * &nbsp;&nbsp;&nbsp;&nbsp;Resizing our image - why reprocessing matters
 * &nbsp;&nbsp;&nbsp;&nbsp;Comparing changes using 2/4-Up
 * &nbsp;&nbsp;&nbsp;&nbsp;Custom settings - what they mean
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color reduction
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dithering
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Snap and Lossy
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saving custom settings
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looping once vs forever
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color reduction
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dithering
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Snap and Lossy
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saving custom settings
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looping once vs forever
 * Step 5: Finishing up
 * Other optional steps and tweaking before saving
 * &nbsp;&nbsp;&nbsp;&nbsp;Removing frames
 * &nbsp;&nbsp;&nbsp;&nbsp;Color correction and adding overlay text/images
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensuring consistency
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensuring consistency
 * &nbsp;&nbsp;&nbsp;&nbsp;Increasing pause between frames
 * Wrapping it all up
 * Licensing
