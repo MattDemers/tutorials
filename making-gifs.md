@@ -307,6 +307,12 @@ Each frame, thankfully, has its own menu to adjust the amount of time that the f
 
 I used this when I wanted to annotate esports plays, as I would pause for a couple seconds to show what was going on. 
 
-![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/lcs.gif?raw=true)
+<blockquote class="imgur-embed-pub" lang="en" data-id="f96I1Yh"><a href="//imgur.com/f96I1Yh">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 By setting the GIF frame itself to freeze for two seconds (and then edit in text, like I explained above) I could save valuable time and space within my Photoshop work environment.
+
+##Wrapping it all up
+
+Thanks for reading this monster of a guide; I didn't think it would be this long, but hey, these things are important.
+
+I'm sure a lot of you are going to come away from this thinking "man, why don't we just move over to webm, already?"
