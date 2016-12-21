@@ -19,27 +19,27 @@ The reason we're using Photoshop instead of some kind of other editor or drag-an
 
 #Table of Contents
 
-* Step 1: Getting your video
-* Step 2: Importing into Photoshop
-* Step 3: Dealing with what comes out
-* Step 3b: Resizing our image (optional)
-* Step 4: Saving our GIF
-* &nbsp;&nbsp;&nbsp;&nbsp;Optimizing our GIF - why settings matter
-* &nbsp;&nbsp;&nbsp;&nbsp;Resizing our image - why reprocessing matters
-* &nbsp;&nbsp;&nbsp;&nbsp;Comparing changes using 2/4-Up
-* &nbsp;&nbsp;&nbsp;&nbsp;Custom settings - what they mean
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color reduction
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dithering
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Snap and Lossy
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saving custom settings
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looping once vs forever
-* Step 5: Finishing up
-* Other optional steps and tweaking before saving
-* &nbsp;&nbsp;&nbsp;&nbsp;Removing frames
-* &nbsp;&nbsp;&nbsp;&nbsp;Color correction and adding overlay text/images
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensuring consistency
-* &nbsp;&nbsp;&nbsp;&nbsp;Increasing pause between frames
-* Wrapping it all up
+* [Step 1: Getting your video](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-1-getting-your-video)
+* [Step 2: Importing into Photoshop](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-2-importing-into-photoshop)
+* [Step 3: Dealing with what comes out](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3-dealing-with-what-comes-out)
+* [Step 3b: Resizing our image (optional)](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-3b-resizing-our-image-optional)
+* [Step 4: Saving our GIF](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-4-saving-our-gif)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Optimizing our GIF - why settings matter](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#optimizing-our-gif---why-settings-matter)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Resizing our image - why reprocessing matters](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#resizing-our-image---why-reprocessing-matters)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Comparing changes using 2/4-Up](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#comparing-changes-using-24-up)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Custom settings - what they mean](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#custom-settings---what-they-mean)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Color reduction](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#color-reduction)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dithering](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#dithering)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Web Snap and Lossy](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#web-snap-and-lossy)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Saving custom settings](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#saving-custom-settings)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Looping once vs forever](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#looping-once-vs-forever)
+* [Step 5: Finishing up](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-5-finishing-up)
+* [Other optional steps and tweaking before saving](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#other-optional-steps-and-tweaking-before-saving)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Removing frames](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#removing-frames)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Color correction and adding overlay text/images](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#color-correction-and-adding-overlay-textimages)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ensuring consistency](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#ensuring-consistency)
+* &nbsp;&nbsp;&nbsp;&nbsp;[Increasing pause between frames](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#increasing-pause-between-frames)
+* [Wrapping it all up](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#wrapping-it-all-up)
 * Licensing
 
 #Step 1: Getting your video
