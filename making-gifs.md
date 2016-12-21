@@ -299,7 +299,14 @@ Please keep in mind that every time you click a new frame in the Timeline window
 
 ##Increasing pause
 
+Increasing the amount of time a frame spends on the screen became important to me when I started to reach the uppet limit of spacethe a GIF could work with. As I mentioned before, Photoshop can only work with 500 frames at maximum, so having 50 or a 100 that are just the same frame frozen (like say, in a pause) is a waste of space.
 
+![](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/pause.jpg?raw=true)
 
+Each frame, thankfully, has its own menu to adjust the amount of time that the frame spends visible before it moves on to the next one. I believe that the video import (based on the FPS of your video) will determine its default value; from there you can adjust as needed.
 
+I used this when I wanted to annotate esports plays, as I would pause for a couple seconds to show what was going on. 
 
+<iframe src='https://gfycat.com/ifr/TintedMediocreGeese' frameborder='0' scrolling='no' width='640' height='361' allowfullscreen></iframe>
+
+By setting the GIF frame itself to freeze for two seconds (and then edit in text, like I explained above) I could save valuable time and space within my Photoshop work environment.
