@@ -1,3 +1,7 @@
+#Tutorial: Automate Discord to post your new content
+
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord_automation_banner.png?raw=true)
+
 Discord has become a great hub for a lot of creators to center their communities. However, it adds one more place that people need to publish content when it comes out.
 
 While there are many bots that can take care of these things, I wanted something really simple <strong>without</strong> having to add all the other functionality that comes with it: I wanted something to monitor an RSS feed and then post a notice to a channel when something changed. The idea is that I wouldn't have to remember to let the people on my server know when I made a new YouTube video or published a new blog; it would just kind of happen for me.
@@ -12,13 +16,13 @@ Discord allows you to generate Web Hooks that will give services access to posti
 
 You can generate a web hook for a channel by going to the "<strong>Edit Channel</strong>" option (the gear to the right of the channel name). This is also where you would edit the channel's name, invites and permissions. You can also access this menu by going to the <strong>Server Settings</strong>, as well.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/Discord_2017-02-10_19-37-28-1.jpg"><img class="size-full wp-image-876" src="http://mattdemers.com/wp-content/uploads/2017/02/Discord_2017-02-10_19-37-28-1.jpg" alt="Discord tutorial" width="895" height="642" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord1.jpg?raw=true)
 
 &nbsp;
 
 Clicking "Create Webhook" generates a key ("Webhook URL") that is for a specific channel. This is where your messages will be posted after we set up Zapier. Everything else (name, icon, etc) is pretty unimportant.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/Discord_2017-02-10_19-38-44-1.jpg"><img class="aligncenter size-full wp-image-877" src="http://mattdemers.com/wp-content/uploads/2017/02/Discord_2017-02-10_19-38-44-1.jpg" alt="" width="892" height="647" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord2.jpg?raw=true)
 
 &nbsp;
 <h2>Step 3: Setting up a Zap</h2>
@@ -26,7 +30,7 @@ Going back to Zapier.com and signing in, we can search for a couple things to ge
 
 Depending on what service you're posting your content to, you can search for "Wordpress," "YouTube," "RSS," "Twitter," "Instagram," or any other kind of service.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-34-27.jpg"><img class="aligncenter wp-image-859 size-full" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-34-27.jpg" alt="Discord tutorial image" width="1227" height="499" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord3.jpg?raw=true)
 
 Again, <strong>you only have 100 posts per month across all Zaps</strong>, so adding every single service you use will burn them out quickly.
 
@@ -40,7 +44,7 @@ Setting up these services will require you to sign into the respective site and 
 <h3>Step 3A: Configuring the Zap Input</h3>
 After choosing an app, you'll see this screen. It'll look different depending on the app you choose. This is where you specify what you want to trigger Zapier into doing something.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-35-06.jpg"><img class="aligncenter wp-image-860 size-full" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-35-06.jpg" alt="Discord tutorial image" width="778" height="608" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord4.jpg?raw=true)
 
 For instance, in the RSS app you can choose when your site updates. For YouTube, you can set when a new video is uploaded to a channel, by a person, or when something new appears in a search.
 <h3>Step 3B: Configuring the Zap Output</h3>
@@ -48,11 +52,11 @@ This is the step where you would set up what happens after the Zap triggers: pos
 
 After saving the triggering action, you'll be brought to a second step where you search for an app again. This time, you'll look for "Webhooks by Zapier."
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-35-50.jpg"><img class="aligncenter wp-image-861 size-full" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-35-50.jpg" alt="Discord tutorial image" width="1218" height="640" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord5.jpg?raw=true)
 
 In the next step, select "POST."
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-36-10.jpg"><img class="aligncenter wp-image-862 size-full" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-36-10.jpg" alt="Discord tutorial image" width="770" height="652" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord6.jpg?raw=true)
 
 In the next step, place your webhook URL that you got from Discord in <strong>Step 2</strong> in the URL field.
 
@@ -60,7 +64,7 @@ In the "Payload Type" field, enter "json."
 
 In the "Data" field, you'll select how your post will look in Discord. First, type "content" in the left field. To the right, you'll have a bigger area where you can craft the post itself.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-36-37-1.jpg"><img class="aligncenter wp-image-864 size-full" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_20-36-37-1.jpg" alt="Discord tutorial image" width="767" height="620" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord7.jpg?raw=true)
 
 Clicking the small square in the top-right (<span style="color: #ff0000;">red square</span>) gives you template options that you can insert into your message that will be filled in by the information Zapier received. For instance, you can add your blog's post title, or YouTube video title, or even the YouTube thumbnail.
 
@@ -78,7 +82,7 @@ Again, keep in mind <strong>all</strong> of your Zaps can only run 100 times a 
 
 You can also Copy your Zap from the Zapier dashboard to make the process easier; changing the trigger means you don't have to re-input the webhook URL or mess with the settings. You <em>will</em> have to change the content, as if you change the app (YouTube to Twitter, for example) the information it pulls in will be different.
 
-<a href="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_21-01-45.jpg"><img class="aligncenter size-full wp-image-880" src="http://mattdemers.com/wp-content/uploads/2017/02/chrome_2017-02-10_21-01-45.jpg" alt="" width="752" height="349" /></a>
+![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord8.jpg?raw=true)
 
 You can find setups for mine below: I encourage you to mess around with what works for you! Keep in mind that every app has its own unique settings, so you may need to pay attention (gasp) to what it's asking from you.
 
