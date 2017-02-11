@@ -18,13 +18,10 @@ You can generate a web hook for a channel by going to the "<strong>Edit Channel<
 
 ![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord1.jpg?raw=true)
 
-&nbsp;
-
 Clicking "Create Webhook" generates a key ("Webhook URL") that is for a specific channel. This is where your messages will be posted after we set up Zapier. Everything else (name, icon, etc) is pretty unimportant.
 
 ![Discord image.](https://github.com/MattDemers/tutorials/blob/master/images/Discord%20Tutorial/discord2.jpg?raw=true)
 
-&nbsp;
 <h2>Step 3: Setting up a Zap</h2>
 Going back to Zapier.com and signing in, we can search for a couple things to get started. Click the "Make a Zap" button in the top-right corner of the site to start making a new one.
 
