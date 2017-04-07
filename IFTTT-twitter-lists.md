@@ -16,11 +16,11 @@ Basically you add as many "OR from:USERNAME" instances as needed to fill out the
 
 Then, going to IFTTT and creating a new applet, you can choose "New tweet from search" under the Twitter **trigger** list, and then paste that string into the box.
 
-![IFTTT Tutorial Step 1](https://github.com/MattDemers/tutorials/images/IFTTT Twitter%20List%20Tutorial/1_IFTTT.png)
+![IFTTT Tutorial Step 1](https://github.com/MattDemers/tutorials/blob/master/images/IFTTT%20Twitter%20List%20Tutorial/1_IFTTT.png?raw=true)
 
 From the **actions** list, you can choose what works for you in terms of notifications: this could be an SMS text message, e-mail, or, in my case, a notification from the IFTTT app.
 
-![IFTTT Tutorial Step 2](https://github.com/MattDemers/tutorials/images/IFTTT Twitter%20List%20Tutorial/2_Action.png)
+![IFTTT Tutorial Step 2](https://github.com/MattDemers/tutorials/blob/master/images/IFTTT%20Twitter%20List%20Tutorial/2_Action.png?raw=true)
 
 Note that I customized the notification to include the **URL to the tweet**; the reason I did this is in order to make it easy to open the Twitter app so I can retweet the post. Customize it how you like.
 
