@@ -1,4 +1,4 @@
-#Tutorial: Get IFTTT notifications from Twitter lists
+# Tutorial: Get IFTTT notifications from Twitter lists
 
 This is going to be a short tutorial in order to automate a Twitter search to replace a Twitter list, then input it into IFTTT to get notifications.
 
