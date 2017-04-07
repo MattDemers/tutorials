@@ -1,3 +1,5 @@
+#Tutorial: Get IFTTT notifications from Twitter lists
+
 This is going to be a short tutorial in order to automate a Twitter search to replace a Twitter list, then input it into IFTTT to get notifications.
 
 Basically I started wanting to be notified of when players on Evil Geniuses (the team I work for) tweeted about their streams going live. Automating this would make my job easier, mostly because I want to make sure that the main Evil Geniuses Twitter account could retweet their "going live" announcements efficiently.
@@ -14,11 +16,11 @@ Basically you add as many "OR from:USERNAME" instances as needed to fill out the
 
 Then, going to IFTTT and creating a new applet, you can choose "New tweet from search" under the Twitter **trigger** list, and then paste that string into the box.
 
-![IFTTT Tutorial Step 1](https://github.com/MattDemers/tutorials/images/IFTTT Twitter List Tutorial/1_IFTTT.png)
+![IFTTT Tutorial Step 1](https://github.com/MattDemers/tutorials/images/IFTTT Twitter%20List%20Tutorial/1_IFTTT.png)
 
 From the **actions** list, you can choose what works for you in terms of notifications: this could be an SMS text message, e-mail, or, in my case, a notification from the IFTTT app.
 
-![IFTTT Tutorial Step 2](https://github.com/MattDemers/tutorials/images/IFTTT Twitter List Tutorial/2_Action.png)
+![IFTTT Tutorial Step 2](https://github.com/MattDemers/tutorials/images/IFTTT Twitter%20List%20Tutorial/2_Action.png)
 
 Note that I customized the notification to include the **URL to the tweet**; the reason I did this is in order to make it easy to open the Twitter app so I can retweet the post. Customize it how you like.
 
