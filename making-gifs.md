@@ -1,4 +1,4 @@
-#Making GIFs with Photoshop
+# Making GIFs with Photoshop
 
 Making GIFs is currently becoming one of the most important things in my toolkit, mostly because they make tweets look better and furnish articles well. However, you need to be careful of both size and content in order to meet space requirements, as the file format is inherently large due to its age and poor optimization.
 
@@ -10,14 +10,14 @@ This can be worked around in certain stages, but sadly people haven't phased GIF
 
 It sounds silly, but even putting one button for people to click (like playing a video or .WebM) might be enough for people *not* to click on it. Sadly, that's how content works sometimes.
 
-#This guide requires:
+# This guide requires:
 
 * Photoshop
 * Mild video editing
 
 The reason we're using Photoshop instead of some kind of other editor or drag-and-drop GIF maker is because I like to know how big the output GIF is going to be, and have fine-tuning over different things like how fast it runs, what the colors look like, and its end dimensions. If you're in an absolute hurry, sure, you can use one of those services, but you're usually going to have to put up with bad compression, a watermark logo, or something that ultimately looks bad or doesn't fit your needs.
 
-#Table of Contents
+# Table of Contents
 
 * [Step 1: Getting your video](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-1-getting-your-video)
 * [Step 2: Importing into Photoshop](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#step-2-importing-into-photoshop)
@@ -42,7 +42,7 @@ The reason we're using Photoshop instead of some kind of other editor or drag-an
 * [Wrapping it all up](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#wrapping-it-all-up)
 * Licensing
 
-#Step 1: Getting your video
+# Step 1: Getting your video
 
 I know I mention video, but that is what we make our GIFs out of. [You can download this video as a sample](https://www.dropbox.com/s/9j78myctwhwjss1/tozawa.mp4?dl=0) from my Dropbox.
 
@@ -50,7 +50,7 @@ Keep in mind that the size of the video matters; Photoshop can only import 500 f
 
 For this tutorial I'll be using Photoshop CS6.
 
-#Step 2: Importing into Photoshop
+# Step 2: Importing into Photoshop
 
 After opening Photoshop, we can import our video by going to **File > Import > Video Frames to Layers**.
 
@@ -72,7 +72,7 @@ As you'll notice, you have some options here.
 
 Keep **Make Frame Animation** checked.
 
-#Step 3: Dealing with what comes out
+# Step 3: Dealing with what comes out
 
 Photoshop will then spit you back to the main window after importing your GIF and setting it up to be worked with.
 
@@ -90,7 +90,7 @@ If you do not see this window, go to the **Window** menu at the top of the scree
 
 You can also go to **Window > Workspace > Reset Essentials** if you want in order to make it look exactly like mine in the screenshot. You'll then have to go to **Window > Timeline** in order to make it show up, though.
 
-#Step 3b: Resizing our image (optional)
+# Step 3b: Resizing our image (optional)
 
 There are two instances where we can resize our image, and which we use depends on both the power of our computer and the size of our intial upload. Basically we ask ourself: "do I know how big the GIF needs to be, and do I know if it will fit my space requirement at that size?"
 
@@ -110,7 +110,7 @@ This will resize our GIF, and it will be reflected in Photoshop.
 
 Learn more about why this matters [here](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#resizing-our-image---why-reprocessing-matters).
 
-#Step 4: Saving our GIF
+# Step 4: Saving our GIF
 
 Once our GIF is the size and length we need it to be, we can move on to producing a finished product. This assumes that you've gone through steps that you can find in the [Optional Steps and Tweaking](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md#other-optional-steps-and-tweaking-before-saving) section below; these include things like color correcting and trimming off frames that don't need to be there.
 
@@ -134,7 +134,7 @@ Highlighted above is where you'll see two important pieces of information: the *
 
 The bottom text in the image ("1623 sec @ 56.6Kbps") will show how long it will take to download at certain Internet speeds. These are largely antiquated and assume you're embedding these onto a page. For Twitter, the service will be adding compression in order to reduce time further.
 
-##Optimizing our GIF - why settings matter
+## Optimizing our GIF - why settings matter
 
 The "Save For Web" dialog is often intimidating because it offers so many settings to tweak. However, this is the nature of the beast, as making a good GIF is often a fight to maintain good quality while having a manageable size.
 
@@ -148,7 +148,7 @@ When you get a good idea of what each setting does to the finished GIF, you can 
 
 64 Colors - 6.888MB (and a bit less detail)
 
-##Resizing our image - why reprocessing matters
+## Resizing our image - why reprocessing matters
 
 Earlier in the tutorial I wrote about why you'd want to resize your GIF in Photoshop instead of the Save For Web Dialog. You can do the latter by checking out the highlighted boxes below:
 
@@ -161,7 +161,7 @@ There are two reasons why I like making sure the GIF is the size it needs to be 
 
 If I can help it, I don't like resizing my GIF in Save For Web due to this reprocessing. If something's coming out at 16MB and knocking it down 50px will put it under the 15MB that I need for Twitter, I'll usually do it here. Otherwise, I'll resize in Photoshop (rather than Save For Web) in order to preserve workflow.
 
-##Comparing changes using 2/4-Up
+## Comparing changes using 2/4-Up
 
 By clicking the tabs for "2-UP" and "4-UP" at the top-left of the screen, we can see what different settings will do to our GIFs. Clicking on a square will select that window to be modified; any changes you make to the settings will **only change that square**, allowing you to compare sizes and quality.
 
@@ -173,9 +173,9 @@ As you can see, each square has their own details to show what's different about
 
 Again, this is a great way to see what these changes actually do in relation to each other, and how that affects your finished product. Clicking into each one of the squares will change the settings in the right pane, and the previews will be affected as you change them in turn.
 
-##Custom settings - what they mean
+## Custom settings - what they mean
 
-###Color reduction 
+### Color reduction 
 
 Part of what takes up space in a GIF is the data pertaining to color. Since a GIF moves (and lighting shifts with it), it's going to have a lot more colors that a static image. 
 
@@ -195,7 +195,7 @@ Notice how the subject looks relatively the same in the 64, 128 and 256 color ex
 
 However, in other instances, you may need that extra clarity in order to show what you're trying to portray. Your mileage may vary.
 
-###Dithering
+### Dithering
 
 In the context of GIF-making, dithering is a technique to smoothen the trandition between colors when the GIF can only use a set amount. Dithering essentially "smooths" the transition between colors by adding dots of alternating colors in order to mask it somewhat.
 
@@ -227,7 +227,7 @@ It is worth noting that only Diffusion will allow you to adjust how much ditheri
 
 The Transparency checkbox allows you to use transparency to aid in dithering; this will decrease file size because (as far as I know) you won't need extra colors to make up for what can be done with it. Again, you can choose the algorithm you use for this similarly to above.
 
-###Web Snap and Lossy
+### Web Snap and Lossy
 
 Both of these options involve how much leeway your GIF is given to reduce data by selectively discarding it. The more lossy an image is, the more static or "noise" is allowed to happen, which reduces clarity and file size.
 
@@ -239,13 +239,13 @@ The same goes for Web Snap, which will adjust colors to be close to [Web Safe co
 
 You can note the color table on the right side of the settings dialog: there are fewer colors there, and all of them are Web Safe.
 
-###Saving custom settings
+### Saving custom settings
 
 By clicking on the menu in the top right of this window **before** we save the image, we can store these custom settings we've made for ourself for later. This means less worrying and an increased workflow later, especially if we're going to be making the same type of GIF over and over.
 
 ![custom settings](https://github.com/MattDemers/tutorials/blob/master/images/GIF%20Tutorial/customsettings.jpg?raw=true)
 
-###Looping once vs forever
+### Looping once vs forever
 
 If for some reason you want your GIF to only loop once, you can do so from the dropdown below.
 
@@ -259,7 +259,7 @@ Once you're comfortable with how your GIF looks, you can click "Save...", give i
 
 I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
 
-##Removing frames
+## Removing frames
 
 After we've got our video in Photoshop as a GIF, there's a couple things we can do to it, and most of them are from the Timeline window.
 
@@ -291,9 +291,9 @@ By scrolling to the top of the layers stack and **then** adding what we want, we
 
 This applies to adding adjustments to color through **Image > Adjustments** or creating a new layer for text and transparent images. Because the layers we're adding have a transparent background, the frames below it can change and have it not affect what's on top.
 
-####As a word of advice, **I strongly suggest you do this in a video editing software** before you import the video to Photoshop. It is much easier than having to ensure consistency for every single frame of your animation, and saves a lot of time.
+#### As a word of advice, **I strongly suggest you do this in a video editing software** before you import the video to Photoshop. It is much easier than having to ensure consistency for every single frame of your animation, and saves a lot of time.
 
-###Ensuring consistency
+### Ensuring consistency
 
 The danger to this comes from the fact that **every frame in the animation stores its own position and visibility data for other layers**. This means that if your overlay text is in a different position when Frame 1 is selected in the "Timeline" window than when Frame 2 is selected, it will animate and change places.
 
@@ -322,7 +322,7 @@ At the top of the "Layer" window (purple highlight) I have the ability to **unif
 
 Please keep in mind that every time you click a new frame in the Timeline window you are working on a separate part of your animation.
 
-##Increasing pause between frames
+## Increasing pause between frames
 
 Increasing the amount of time a frame spends on the screen became important to me when I started to reach the uppet limit of spacethe a GIF could work with. As I mentioned before, Photoshop can only work with 500 frames at maximum, so having 50 or a 100 that are just the same frame frozen (like say, in a pause) is a waste of space.
 
@@ -336,7 +336,7 @@ I used this when I wanted to annotate esports plays, as I would pause for a coup
 
 By setting the GIF frame itself to freeze for two seconds (and then edit in text, like I explained above) I could save valuable time and space within my Photoshop work environment.
 
-#Wrapping it all up
+# Wrapping it all up
 
 Thanks for reading this monster of a guide; I didn't think it would be this long, but hey, these things are important.
 
