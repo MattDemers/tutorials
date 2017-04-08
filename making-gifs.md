@@ -255,7 +255,7 @@ If for some reason you want your GIF to only loop once, you can do so from the d
 
 Once you're comfortable with how your GIF looks, you can click "Save...", give it a name, and you're finished! Woo!
 
-#Other optional steps and tweaking before saving
+# Other optional steps and tweaking before saving
 
 I originally had these sections as part of the bigger guide as their own steps, but realized that you may not need to use them in every situation. Consider this an "odds and ends" collection; not everything you're going to use with GIFs is here, but most of the things I've run across are.
 
@@ -279,7 +279,7 @@ I can highlight frames that I don't want with a click, CTRL/⌘ click (for multi
 
 ...go to the menu above and click "**Delete Frames**" in order to remove them.
 
-##Color correction and adding overlay text/images
+## Color correction and adding overlay text/images
 
 In order to adjust hue, saturation or any other color options, you can do it the normal way as you would in Photoshop. However, you have to make sure that your adjustments are on top of all the other layers.
 
