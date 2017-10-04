@@ -2,7 +2,7 @@
 
 This is going to be a short tutorial in order to automate a Twitter search to replace a Twitter list, then input it into IFTTT to get notifications.
 
-Basically I started wanting to be notified of when players on Evil Geniuses (the team I work for) tweeted about their streams going live. Automating this would make my job easier, mostly because I want to make sure that the main Evil Geniuses Twitter account could retweet their "going live" announcements efficiently.
+Basically I started wanting to be notified of when players on Evil Geniuses (the team I work for) tweeted about their streams going live. Automating this would make my job easier, because I want to make sure that the main Evil Geniuses Twitter account could retweet their "going live" announcements efficiently.
 
 I didn't want to make the retweeting of this automatic, as any time you're doing so you have the potential to lose control of frequency, tone and mood with your account. You do *not* want to do this.
 
