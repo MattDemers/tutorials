@@ -4,7 +4,7 @@ This is going to be a short tutorial in order to automate a Twitter search to re
 
 Basically I started wanting to be notified of when players on Evil Geniuses (the team I work for) tweeted about their streams going live. Automating this would make my job easier, mostly because I want to make sure that the main Evil Geniuses Twitter account could retweet their "going live" announcements efficiently.
 
-I did *not* want to make the retweeting of this automatic, as any time you're doing so you have the potential to lose control of frequency, tone and mood with your account. You do *not* want to do this.
+I didn't want to make the retweeting of this automatic, as any time you're doing so you have the potential to lose control of frequency, tone and mood with your account. You do *not* want to do this.
 
 So I started looking for solutions, starting with IFTTT, which is my go-to when it comes to automating web services. Sadly, they did not have the ability to add Twitter lists for monitoring, only custom searches — I also searched for ways to make Twitter lists into RSS for monitoring, but Twitter has deprecated that part of their API, and I didn't want to sign up for more third-party services.
 
