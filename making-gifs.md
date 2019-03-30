@@ -44,7 +44,7 @@ The reason we're using Photoshop instead of some kind of other editor or drag-an
 
 # Step 1: Getting your video
 
-I know I mention video, but that is what we make our GIFs out of. [You can download this video as a sample](https://www.dropbox.com/s/9j78myctwhwjss1/tozawa.mp4?dl=0) from my Dropbox.
+I know I mention video, but that is what we make our GIFs out of. [You can download this video as a sample](https://www.dropbox.com/s/4g7trpj56hzfk1m/tozawa.mp4?dl=0) from my Dropbox.
 
 Keep in mind that the size of the video matters; Photoshop can only import 500 frames of a video at maximum. When you import the video into Photoshop (in order to do the GIF work) it will tell you that it's either a large video in size and/or in frames. The large size of a video can make it difficult to work with, as changes will need to be applied to the whole thing.
 
