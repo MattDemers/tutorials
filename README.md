@@ -4,7 +4,7 @@ This is a collection of tutorials and information that I've found useful when it
 
 By collecting it all in one place, I hope to make it easier to be able to spread the information and have people contribute via Github in order to improve it.
 
-Guides:
+__Guides__:
 
 * [Making GIFs](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md)
 * [Automating Discord with Zapier](https://github.com/MattDemers/tutorials/blob/master/automating-discord.md)
