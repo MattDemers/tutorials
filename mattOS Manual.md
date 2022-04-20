@@ -1,3 +1,13 @@
+# mOS - A retro-inspired stream theme
+
+Hello and welcome! My name is [Matt Demers](https://onemorematt.com), and thanks for downloading mOS.
+
+I originally created this theme to tinker with a layout that's modular, and didn't require me to create an entire new layout every time I wanted to play something at a different aspect ratio. By creating individual window "frames" that could be placed on top of the content (games, video, images, chat, etc), they could be resized and moved as needed.
+
+The cool thing was, as most people are familiar with windows-based operating systems, the idea of resizing things on the fly and layering windows comes naturally. I thought this was a fun idea to take to its conclusion.
+
+Below are a set of instructions for both the windows and the bottom task bar to complete the operating system look. I hope this helps.
+
 ## Included frames/graphics and quick guide
 
 * "Dimensions: Inner" means the transparent rectangle inside the frame. This is where you'd fit your content, webcam, or chat.
