@@ -34,6 +34,13 @@ This is a list of things that Matt Demers has found are useful in content creati
 |[MiraHeze](https://Miraheze.org) |Free Wiki Hosting   |Free MediaWiki hosting for projects of all sizes. Very helpful staff. Kind of going to be at their mercy for infrastructure (sometimes things are slow, and you'll need staff to upload certain things bigger than certain sizes). You get what you pay for. No ads, which helps small projects.  |
 |[NameChk](https://Namechk.com)   |Username auditor   |Allows for fast checking of available usernames across a lot of different web services. Useful if you're looking to establish a new brand for yourself and want to check a bunch of username possibilities at once.   |
 
+## Bots and self-installs
+|[Matomo](https://matomo.org/)   | Analytics service  |Google Analytics, only you own the data. Need to be familiar with Docker (ie, have your own server solution) to make it work, but hey, it's one more step to de-Googling. Works pretty similar.   |
+|[PhantomBot](https://phantombot.github.io/)   | Twitch/Discord Bot  | Have been using PhantomBot for a couple years now; it's lived on my Raspberry Pi and has taught me a lot about a number of things (Unix, Linux, Python, etc). Basically I wanted a bot that could have its own username, custom commands, timers, and other things without having to pay for it. Discord support can be a bit surly, but I like the project. |
+|[MonitoRSS](https://monitorss.xyz/)   | Discord Bot  | I needed a soluton that would read an RSS feed (like, for when I posted something new [on my site](https://mattdemers.com), [PlusHeart](https://plusheart.substack.com), or [my YouTube](https://youtube.com/mattdemers)) and alert my Discord when it was updated. I like this bot because it's pretty low-key and the ability to customize the embed works really well. Might move this functionality to Red if I can, but for now it works.  |
+|[Red Discord Bot](https://github.com/Cog-Creators/Red-DiscordBot)   | Discord Bot  | Open-source Discord bot with "cogs" that are community-developed. [Bit difficult to set up](https://github.com/Cog-Creators/Red-DiscordBot#installation), but nice if you're looking for a challenge, or something to live on a Raspberry Pi.  |
+
+
 ## Graphic Design Resources
 
 |Name|Type|Notes|
