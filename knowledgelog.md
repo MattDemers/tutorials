@@ -13,3 +13,7 @@ This is a list of things that Matt Demers has found are useful in content creati
 **[Ninite](https://ninite.com/)** - Basically a bulk "install things on a fresh Windows install" program. You check boxes beside the software you want, and it'll give you one program to download that will install all of those things on your PC. It's nice because it'll always install the latest version of the programs, and it'll always choose "no" or "decline" for the adware that are bundled into the installers. Nice to give to relatives or parents who can't really be trusted to install their own software, or who might be a bit intimidated by dialogs.
 
 **[MP3Tag](https://www.mp3tag.de/en/)** - Edits metadata for a number of different file formats. I mainly use it for audio (WAV/MP3) to add ID3 tags; this means that when someone imports a podcast episode to iTunes or whatever, it'll have the proper "Artist" or "Title" attributes. Allows for copy-pasting tags, which means I just have to change "Issue #1" to "Issue #2" and save it every time I make a new episode. Works with video as well, but I don't really touch that.
+
+**[OBS Studio](https://obsproject.com/)** - Open-source, well-maintained, well-supported program for streaming or recording from your computer. Not much else to say because I'd have to write a full tutorial on that, and there's plenty of them available. I prefer this software to StreamLabs OBS (SLOBS) or Xsplit.
+
+**
