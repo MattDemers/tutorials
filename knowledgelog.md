@@ -29,7 +29,13 @@ This is a list of things that Matt Demers has found are useful in content creati
 |[Streamlink Twitch GUI](https://streamlink.github.io/streamlink-twitch-gui/)|Content Proxy|Syncs your followed channels and allows for browsing/search for Streamlink. Need to install Streamlink first.|
 |[Hephaistos](https://hephaistos.azurewebsites.net/)| TTRPG Tool  |Character builder (essentially, D&D Beyond) for Starfinder 1E. Developed by one guy. Support [his Patreon](https://www.patreon.com/bePatron?u=44481570) or [Ko-Fi](https://ko-fi.com/hephaistos).|
 
-## Useful Wikis and Databases
+## Graphic Design Resources
 
 |Name|Type|Notes|
 |---|---|---|
+|Vertex.im   |Free Icons  | 3D icons for use in different places; you set the rotation/placement and material/light options (ie, changing glass to frosted glass) and then download the result as a PNG.|
+|[TransparentTextures](https://TransparentTextures.com)| Free Textures  | Use these textures in Photoshop by opening them and then going to `Edit > Define Pattern`. Then you can use them in the Pattern Overlay menu in the Blending Options for a layer. Has a few brand logos. "Free for commercial and personal use", but no license on the site. **Note: Search doesn't work with capitals for some reason**. |
+|[FontAwesome](https://fontawesome.com/)   |Free\* Icons (+ Attribution)  | I found FontAwesome as a good way to get icons that scale infinitely (since you can download their fontset locally for use in Photoshop) or to install on my site. I say "Free\*" because [you don't get access to all their icons](https://fontawesome.com/support#why-do-i-have-to-pay-for-font-awesome-icons-now), but there's enough brand stuff in there (logos) that are useful for what I need. Requires attribution.|
+|[Pexels](Pexels.com)   |Free Photos   | Creative Commons 0 (ie, fine to use with no attribution, and for commercial projects) photography. Really decent database, and doesn't require a login or anything to download. Say thanks to your photographers, though.  |
+|[Reshot](Reshot.com)  |Free Graphics  | Same as above, only for icons and some corporate art. Really useful to be able to download the SVG and edit with Illustrator. [License is here, but permissive](https://www.reshot.com/license/). |
+|TheFutur.com   |Tutorials/Classes |   |
