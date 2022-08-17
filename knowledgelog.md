@@ -27,3 +27,9 @@ This is a list of things that Matt Demers has found are useful in content creati
 |[FreeTube](https://freetubeapp.io/)|Content Proxy|Ad-free and private frontend for YouTube. Doesn't sync with your subscriptions list - pretty much have to follow channels separately and then export/import them to new FreeTube installs. Supports importing playlists, but not saving them. Basically copy-paste in YouTube links or Playlist links into its search to play. Make sure to support creators in other ways (Patreon, Donations, Ko-Fi) if you aren't going to watch their ads.]
 |[Streamlink](https://streamlink.github.io/)|Content Proxy|Uses VLC to play Twitch streams. Is a command-line interface, so you're going to have to learn how to open a command prompt and type `streamlink https://twitch.tv/mattdemers best` yourself. Make sure to support creators in other ways (Patreon, Donations, Ko-Fi) if you aren't going to watch their ads.|
 |[Streamlink Twitch GUI](https://streamlink.github.io/streamlink-twitch-gui/)|Content Proxy|Syncs your followed channels and allows for browsing/search for Streamlink. Need to install Streamlink first.|
+|[Hephaistos](https://hephaistos.azurewebsites.net/)| TTRPG Tool  |Character builder (essentially, D&D Beyond) for Starfinder 1E. Developed by one guy. Support [his Patreon](https://www.patreon.com/bePatron?u=44481570) or [Ko-Fi](https://ko-fi.com/hephaistos).|
+
+## Useful Wikis and Databases
+
+|Name|Type|Notes|
+|---|---|---|
