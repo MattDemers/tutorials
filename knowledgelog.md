@@ -28,7 +28,9 @@ None of these links have trackers or referral codes embedded in them, to the bes
 |Name|Type|Notes|
 |---|---|---|
 |[Da Vinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)   |Video Editor   |Powerful video editor with a free edition. Does a lot of the things someone would normally pirate Adobe Premiere for, without the legal complications of piracy. Not open-source, and you have to register an account to use it. Might get hounded to upgrade to a Premium product, but hey, it's the price you pay. |
+| Vegas Pro (via Humble)  | Video Editor  | Vegas Pro (formerly Sony Vegas) will often go on Humble Bundles for cheap (ie, <$100). If you're looking for a cheaper way of paying for a video editor (so you won't get nagged to pay for Resolve), this works.  |
 |[Photopea](https://photopea.com/)   |Photo Editor   |"Photoshop, only in a browser." Not C&D'd by Adobe, so hey, that's cool. Can be installed locally in order to work offline. Works with .PSDs, .AIs, .XDs, and .sketch files, and other file formats like PDFs. Pretty much identical UI to Photoshop. Good, legal learning tool. created by a single dev over a decade.   |
+
 
 ## Web Services/Proxies
 
