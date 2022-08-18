@@ -34,7 +34,7 @@ None of these links have trackers or referral codes embedded in them, to the bes
 |[Photopea](https://photopea.com/)   |Photo Editor   |"Photoshop, only in a browser." Not C&D'd by Adobe, so hey, that's cool. Can be installed locally in order to work offline. Works with .PSDs, .AIs, .XDs, and .sketch files, and other file formats like PDFs. Pretty much identical UI to Photoshop. Good, legal learning tool. created by a single dev over a decade.   |
 
 
-## Web Services/Proxies
+## Web Services, Proxies, and Alternatives
 
 |Name|Type|Notes|
 |---|---|---|
