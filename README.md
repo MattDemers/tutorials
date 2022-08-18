@@ -4,6 +4,8 @@ This is a collection of tutorials and information that I've found useful when it
 
 By collecting it all in one place, I hope to make it easier to be able to spread the information and have people contribute via Github in order to improve it.
 
+[Here's a list of useful software, services and other things that I think are worth sharing](https://github.com/MattDemers/tutorials/blob/master/knowledgelog.md).
+
 __Guides__:
 
 * [Making GIFs](https://github.com/MattDemers/tutorials/blob/master/making-gifs.md)
