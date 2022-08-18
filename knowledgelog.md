@@ -6,6 +6,8 @@ This is a list of things that Matt Demers has found are useful in content creati
 
 None of these links have trackers or referral codes embedded in them, to the best of my knowledge. Use them at your own risk - I don't provide support myself.
 
+Sections:
+
 * [Useful Software/File Management](#useful-software-file-management)
 * [Photo and Video Editing](#photo-and-video-editing)
 * [Web Services, Proxies, and Alternatives](#web-services--proxies--and-alternatives)
