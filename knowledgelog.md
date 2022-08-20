@@ -90,11 +90,14 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
 |[TheFutur's "Content"](https://thefutur.com/learn)|Tutorials/Classes | I haven't bought any of TheFutur's courses or templates, but I've found that their site has a "Content" tab that has a lot of good courses/resources for learning marketing skills.  |
 
 ## Autohotkey Scrips
+
+"Clear all Windows Notifications with CTRL+F12"
 ```
 ^F12::
     Send, {LWIN DOWN}a{LWIN UP}{SHIFT DOWN}{TAB}{TAB}{SHIFT UP}{SPACE}{ESC}
     return
 ```
+"Clear current Windows Notification toast with CTRL+F11"
 ```
 ^F11::
     Send, {LWIN DOWN}{SHIFT DOWN}V{LWIN UP}{SHIFT UP}{DEL}
