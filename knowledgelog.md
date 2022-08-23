@@ -76,6 +76,7 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
 |[Pihole](https://pi-hole.net/)   | Ad blocker  | Network-wide adblocking through DNS. Requires some setup and tinkering at your router and device level to make sure devices connect to it manually, or automatically. Can do content control (ie, block domains) per device or for the whole network. Invaluable piece of tech for protecting yourself online.  |
 |[DD-WRT](https://dd-wrt.com/)   | Router firmware   | Open source and community-developed alternative router firmware. Most people won't need this, but it's nice if you have a compatible router model and want to boost power to your antennas, or get a feature set that your router doesn't have by default. Have used this across multiple routers because I know where everything is.   |
 |[Snapdrop (Docker)](https://hub.docker.com/r/linuxserver/snapdrop)   | File transfer   | Snapdrop.net (official host) goes down from time to time, and this is annoying. I'm self-hosting Snapdrop on my NAS to be able to give the ability to share in my home network without needing to worry about its infrastructure. Works the same.   |
+|[TinyTinyRSS](https://tt-rss.org/) | RSS Reader |I liked Google Reader, and Google killing it was a travesty to the Internet. I've used other RSS readers (both desktop and on the web) but I like being able to self-host TTRSS. I use [this Docker image](https://hub.docker.com/r/wangqiru/ttrss) for it because I still don't know how to run my own databases in Docker and have other containers be able to use them.|
 
 
 ## Graphic Design Resources
@@ -92,15 +93,8 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
 
 ## Autohotkey Scrips
 
-"Clear all Windows Notifications with CTRL+F12"
-```
-^F12::
-    Send, {LWIN DOWN}a{LWIN UP}{SHIFT DOWN}{TAB}{TAB}{SHIFT UP}{SPACE}{ESC}
-    return
-```
-"Clear current Windows Notification toast with CTRL+F11"
-```
-^F11::
-    Send, {LWIN DOWN}{SHIFT DOWN}V{LWIN UP}{SHIFT UP}{DEL}
-    return
+|Script|Notes|Code|
+|---|---|---|
+|"Clear all Windows Notifications with CTRL+F12"|I use this to clear all backlogged Windows Notifications|<pre>^F12::<br>    Send, {LWIN DOWN}a{LWIN UP}{SHIFT DOWN}{TAB}{TAB}{SHIFT UP}{SPACE}{ESC}<br>    return</pre>|
+|"Clear current Windows Notification toast with CTRL+F11"|I use this to get rid of Windows Notifications without needing to click on them.|<pre>^F11::<br>    Send, {LWIN DOWN}{SHIFT DOWN}V{LWIN UP}{SHIFT UP}{DEL}<br>    return</pre>|
 ```
