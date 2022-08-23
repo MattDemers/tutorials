@@ -98,7 +98,7 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
     Send, {LWIN DOWN}a{LWIN UP}{SHIFT DOWN}{TAB}{TAB}{SHIFT UP}{SPACE}{ESC}
     return
 ```
-"Clear current Windows Notification toast with CTRL+F11"
+"Clear current Windows Notification toast with CTRL+F11" - I use this to get rid of Windows Notifications without needing to click on them.
 ```
 ^F11::
     Send, {LWIN DOWN}{SHIFT DOWN}V{LWIN UP}{SHIFT UP}{DEL}
