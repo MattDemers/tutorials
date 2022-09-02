@@ -91,7 +91,7 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
 |[Reshot](https://Reshot.com)  |Free Graphics  | Same as above, only for icons and some corporate art. Really useful to be able to download the SVG and edit with Illustrator. [License is here, but permissive](https://www.reshot.com/license/). |
 |[TheFutur's "Content"](https://thefutur.com/learn)|Tutorials/Classes | I haven't bought any of TheFutur's courses or templates, but I've found that their site has a "Content" tab that has a lot of good courses/resources for learning marketing skills.  |
 
-## Autohotkey Scrips
+## Autohotkey Scripts
 
 |Script|Notes|Code|
 |---|---|---|
