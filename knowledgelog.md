@@ -95,5 +95,5 @@ Note: these things likely require a lot of tinkering to install/run. I have a Ra
 
 |Script|Notes|Code|
 |---|---|---|
-|"Clear all Windows Notifications with CTRL+F12"|I use this to clear all backlogged Windows Notifications|<pre>^F12::<br>    Send, {LWIN DOWN}a{LWIN UP}{SHIFT DOWN}{TAB}{TAB}{SHIFT UP}{SPACE}{ESC}<br>    return</pre> |
+|"Clear all Windows Notifications with CTRL+F12"|I use this to clear all backlogged Windows Notifications|<pre>^F12::<br>Send #a<br> Sleep, 500<br> if WinActive("ahk_exe Shellexperiencehost.exe")<br>{<br>Send +{Tab}+{Tab} {Space} {Esc}<br>}<br>return</pre> |
 |"Clear current Windows Notification toast with CTRL+F11"|I use this to get rid of Windows Notifications without needing to click on them.|<pre>^F11::<br>    Send, {LWIN DOWN}{SHIFT DOWN}V{LWIN UP}{SHIFT UP}{DEL}<br>    return</pre> |
