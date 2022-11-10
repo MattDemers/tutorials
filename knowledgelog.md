@@ -40,6 +40,8 @@ Sections:
 |[Photopea](https://photopea.com/)   |Photo Editor   |"Photoshop, only in a browser." Not C&D'd by Adobe, so hey, that's cool. Can be installed locally in order to work offline. Works with .PSDs, .AIs, .XDs, and .sketch files, and other file formats like PDFs. Pretty much identical UI to Photoshop. Good, legal learning tool. created by a single dev over a decade.   |
 |[CombinePDF](https://combinepdf.com/)   | PDF Editing   | I've been using this as a low-key way to combine resumes and cover letter together when they're needed. Sometimes you just need to smash two PDFs together without importing and editing them at all, and this is a good way to do it. No registration needed.   |
 |[Birme](https://Birme.net)   |Photo resizer   | Put in a picture resolution, then drag and drop a bunch of images to bulk resize them.  |
+|[Remove.bg](https://remove.bg)|Background remover| Free background removal for things like photos of people and objects. No registration, but full resolution of images is locked behind a pay-per-use model. Good in a pinch, or for graphics that don't need high resolution (social banners, podcast images).|
+|[Adobe Express Background Removal](https://express.adobe.com/tools/remove-background)|Background remover|Free background remover with full image download, but requires an Adobe sign-up. AI is similar in results to Remove.bg, so pick your poison.|
 
 
 ## Web Services, Proxies, and Alternatives
