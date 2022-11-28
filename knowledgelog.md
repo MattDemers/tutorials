@@ -30,6 +30,7 @@ Sections:
 |[ShareX](https://getsharex.com/)   |Screenshotting, Editing, Sharing   |Open source software for screenshotting, screen recording (GIF or MP4) and managing those files. Great editor for cropping, annotating or blurring out sections of what you've captured. Can be configured to automatically upload to different hosting services (Imgur, etc) and grab the URL. Great piece of software.  |
 |[Buckets](https://www.budgetwithbuckets.com/)   | Budgeting  | Budgeting software. Alternative to YNAB4, which has been discontinued; "New YNAB" wants a recurring subscription fee, and Buckets is pretty much the same software only with an unlimited trial. One-time $50 software license, and I can respect that. No app (yet), as it's developed by one guy.  |
 |[Chatterino](https://chatterino.com/) (and [Chatterino7](https://github.com/SevenTV/chatterino7))   | Twitch Management  | I use these clients in order to chat on Twitch. I use Chatterino7 over Chatterino because they have support for [7TV](https://7tv.app/), but otherwise they are a fork and share the same codebase; both apps seem to be on the same version number, so I assume they're equivalent otherwise.  |
+|[UsbLogViewer](https://www.nirsoft.net/utils/usb_log_view.html)|USB Auditing|What device is continuously telling Windows it's been unplugged and replugged? Why do I constantly hear those alert tones? This will (hopefully) give you clarity, because keeping it open will log when something is connected/disconnected.|
 
 ## Photo and Video Editing
 
